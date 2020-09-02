@@ -1,4 +1,4 @@
-package edu.usal.controlador;
+package edu.usal.controlador.Cliente;
 
 import java.io.IOException;
 import java.sql.SQLException;

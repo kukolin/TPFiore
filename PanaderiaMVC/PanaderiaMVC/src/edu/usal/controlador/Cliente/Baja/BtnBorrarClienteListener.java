@@ -1,10 +1,12 @@
-package edu.usal.controlador;
+package edu.usal.controlador.Cliente.Baja;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.sql.SQLException;
 
+import edu.usal.controlador.BtnVolver;
+import edu.usal.controlador.Controlador;
 import edu.usal.vista.AltaClienteVista;
 import edu.usal.vista.BajaClienteVista;
 import edu.usal.vista.Frame;

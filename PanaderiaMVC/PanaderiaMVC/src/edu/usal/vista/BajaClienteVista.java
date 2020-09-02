@@ -11,7 +11,7 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import javax.swing.SwingConstants;
 
-import edu.usal.controlador.ItemsClienteListener;
+import edu.usal.controlador.Cliente.ItemsClienteListener;
 
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;

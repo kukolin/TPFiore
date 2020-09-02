@@ -1,4 +1,4 @@
-package edu.usal.controlador;
+package edu.usal.controlador.Cliente.Listar;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

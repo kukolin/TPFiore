@@ -10,8 +10,8 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
 import edu.usal.controlador.Controlador;
-import edu.usal.controlador.LoginControlador;
 import edu.usal.controlador.MenuListener;
+import edu.usal.controlador.Login.LoginControlador;
 
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;

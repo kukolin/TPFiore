@@ -1,13 +1,17 @@
-package edu.usal.controlador;
+package edu.usal.controlador.Login;
 
-import java.awt.Panel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.IOException;
+import java.io.*;
 import java.sql.SQLException;
 
 import javax.swing.JOptionPane;
 
+import edu.usal.controlador.Controlador;
+import edu.usal.controlador.Cliente.Alta.BtnAltaClienteListener;
+import edu.usal.controlador.Cliente.Baja.BtnBorrarClienteListener;
+import edu.usal.controlador.Cliente.Listar.BtnListarClienteListener;
+import edu.usal.controlador.Cliente.Modificar.BtnModificarClienteListener;
 import edu.usal.dao.factory.UsuarioFactory;
 import edu.usal.dao.interfaces.UsuarioInterfaz;
 import edu.usal.negocio.dominio.Usuario;
@@ -54,6 +58,7 @@ public class LoginControlador implements ActionListener{
 				principalVista.addActionListeners(new BtnAltaClienteListener());
 				principalVista.addActionListeners2(new BtnListarClienteListener());
 				principalVista.addActionListeners3(new BtnBorrarClienteListener());
+				principalVista.addActionListeners4(new BtnModificarClienteListener());
 				
 			}
 			

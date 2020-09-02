@@ -99,5 +99,42 @@ public class ClienteImpl implements ClienteInterfaz {
 		
 		return lista;
 	}
+	
+	@Override
+	public boolean ModificarCliente(int idCliente, Cliente cliente) throws SQLException {
+
+		String nombre = cliente.getNombre();
+		String apellido = cliente.getApellido();
+		int dni = cliente.getDni();
+		String direccion = cliente.getDireccion();
+		String sexo = cliente.getSexo();
+		String mail = cliente.getMail();
+		int telefono = cliente.getTelefono();
+		Date fechaNac = cliente.getFechaNac();
+		
+		con = Conexion.getConnection();
+		
+		Statement stm = con.createStatement();
+		
+		String updateCliente = "UPDATE Cliente SET Nombre = '" + nombre + 
+				"', Apellido = '" + apellido +
+				"', DNI = '" + dni +
+				"', Fecha_nacimiento = '" + fechaNac + 
+				"', Direccion = '" + direccion +
+				"', Telefono = '" + telefono +
+				"', Sexo = '" + sexo +
+				"', Mail = '" + mail +
+
+				"' WHERE ID_Cliente = " + idCliente;
+		
+		stm.execute(updateCliente);
+		
+		stm.close();
+		
+		
+		con.close();
+		return true;
+		
+	}
 
 }

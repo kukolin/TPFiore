@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="PanaderiaMVC/src"/>
-	<classpathentry kind="lib" path="PanaderiaMVC/DateChooser.jar"/>
-	<classpathentry kind="lib" path="PanaderiaMVC/TPFiore.jar"/>
-	<classpathentry kind="output" path="PanaderiaMVC/bin"/>
+	<classpathentry kind="con"
+		path="org.eclipse.jdt.launching.JRE_CONTAINER" />
+	<classpathentry kind="src" path="PanaderiaMVC/src" />
+	<classpathentry kind="lib"
+		path="PanaderiaMVC/DateChooser.jar" />
+	<classpathentry kind="lib" path="TPFiore.jar" />
+	<classpathentry kind="output" path="PanaderiaMVC/bin" />
 </classpath>
