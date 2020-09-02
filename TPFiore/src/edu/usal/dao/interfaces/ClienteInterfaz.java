@@ -12,6 +12,8 @@ public interface ClienteInterfaz {
 	boolean BajaCliente(int i) throws SQLException;
 
 	ArrayList<Cliente> ListarClientes() throws SQLException;
+
+	boolean ModificarCliente(int idCliente, Cliente cliente) throws SQLException;
 	
 	
 }

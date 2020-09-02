@@ -1,4 +1,4 @@
-package edu.usal.controlador;
+package edu.usal.controlador.Cliente.Alta;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -7,6 +7,8 @@ import java.sql.SQLException;
 
 import javax.swing.JOptionPane;
 
+import edu.usal.controlador.BtnVolver;
+import edu.usal.controlador.Controlador;
 import edu.usal.vista.AltaClienteVista;
 import edu.usal.vista.Frame;
 

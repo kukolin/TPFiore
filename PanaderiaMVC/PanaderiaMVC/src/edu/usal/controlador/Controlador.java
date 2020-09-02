@@ -3,6 +3,7 @@ package edu.usal.controlador;
 import java.io.IOException;
 import java.sql.SQLException;
 
+import edu.usal.controlador.Login.LoginControlador;
 import edu.usal.dao.factory.UsuarioFactory;
 import edu.usal.dao.interfaces.UsuarioInterfaz;
 

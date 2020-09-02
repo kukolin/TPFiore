@@ -3,8 +3,7 @@ package edu.usal.controlador;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JOptionPane;
-
+import edu.usal.controlador.Login.LoginControlador;
 import edu.usal.vista.Frame;
 import edu.usal.vista.PrincipalVista;
 
